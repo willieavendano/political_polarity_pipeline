@@ -15,11 +15,11 @@ logger = logging.getLogger(__name__)
 def check_python_version():
     """Check Python version."""
     version = sys.version_info
-    if version.major == 3 and version.minor >= 11:
+    if version.major == 3 and version.minor >= 12:
         logger.info(f"✓ Python version: {version.major}.{version.minor}.{version.micro}")
         return True
     else:
-        logger.error(f"✗ Python 3.11+ required, found {version.major}.{version.minor}")
+        logger.error(f"✗ Python 3.12+ required, found {version.major}.{version.minor}")
         return False
 
 

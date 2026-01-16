@@ -32,7 +32,7 @@ It provides:
 ## Setup
 
 ### Requirements
-- Python 3.11+
+- Python 3.12+
 - 8GB+ RAM (16GB recommended for transformer training)
 - GPU optional (CPU mode supported with slower training)
 

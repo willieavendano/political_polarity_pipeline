@@ -1,5 +1,5 @@
 # Core dependencies - pinned versions for reproducibility
-python-version==3.11.*
+python-version==3.12.*
 
 # Data manipulation
 pandas==2.1.4

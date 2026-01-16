@@ -1,0 +1,44 @@
+# Core dependencies - pinned versions for reproducibility
+python-version==3.11.*
+
+# Data manipulation
+pandas==2.1.4
+numpy==1.26.3
+scipy==1.11.4
+
+# NLP and ML
+scikit-learn==1.4.0
+nltk==3.8.1
+spacy==3.7.2
+
+# Transformers and deep learning
+torch==2.1.2
+transformers==4.36.2
+datasets==2.16.1
+accelerate==0.26.1
+tokenizers==0.15.0
+
+# Keyword extraction
+keybert==0.8.4
+sentence-transformers==2.3.1
+
+# Interpretability
+shap==0.44.1
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.1
+
+# Configuration
+pyyaml==6.0.1
+
+# Progress bars
+tqdm==4.66.1
+
+# Testing
+pytest==7.4.4
+pytest-cov==4.1.0
+
+# Utilities
+python-dateutil==2.8.2
+jsonlines==4.0.0
